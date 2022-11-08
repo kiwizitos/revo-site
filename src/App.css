@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("./assets/fonts/Proxima-Nova/Proxima-Nova.otf");
+}
+
+@font-face {
+  font-family: "SaoTorpes";
+  src: url("./assets/fonts/Sao-Torpres/SaoTorpes.ot");
+}
