@@ -11,11 +11,11 @@ function HomePage() {
         <div>
           <p className='font-bold text-[36pt] sm:w-[300px] leading-none'>
             Dê vida aos seus projetos com a &nbsp;
-            <b className='text-blue font-saoTorpes'>Revo.</b>
+            <p className='text-blue font-saoTorpes'>Revo.</p>
           </p>
           <p className='mt-5'>A consultoria ideal para suas necessidades</p>
           <NavLink to='/services'>
-            <div className='bg-blue text-white font-bold text-xl flex justify-center items-center h-20 my-5 sm:mt-40 rounded-md'>
+            <div className='bg-blue text-white font-bold text-xl flex justify-center items-center h-20 my-5 sm:mt-40 rounded-md font-poppins'>
               Conheça agora
             </div>
           </NavLink>

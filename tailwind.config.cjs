@@ -18,7 +18,7 @@ module.exports = {
     
     },
     fontFamily: {
-      'saoTorpes': 'SaoTorpes',
+      'saoTorpes': 'Sao Torpes',
       'poppins': 'Poppins',
       'body': 'Proxima Nova',
     },
