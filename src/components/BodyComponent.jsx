@@ -1,5 +1,6 @@
-import { Route, Routes } from 'react-router-dom'
+import { Navigate, Route, Routes } from 'react-router-dom'
 import AboutPage from '../pages/AboutPage'
+import ErrorPage from '../pages/ErrorPage'
 import HomePage from '../pages/HomePage'
 import ProjectsPage from '../pages/ProjectsPage'
 import ServicesPage from '../pages/ServicesPage'
@@ -14,6 +15,8 @@ function BodyComponent() {
         <Route path='/projects' element={<ProjectsPage />} />
         <Route path='/team' element={<TeamPage />} />
         <Route path='/about' element={<AboutPage />} />
+        <Route path='/404' element={<ErrorPage />}/>
+        <Route path='*' element={<Navigate to="/404" />}/>
       </Routes>
     </div>
   )

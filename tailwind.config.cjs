@@ -24,7 +24,7 @@ module.exports = {
     },
     extend: {
       boxShadow: {
-        'solidBox': '0.5rem 0.5rem',
+        'solidBox': '0.5rem 0.5rem #373A50',
       }
     },
   },

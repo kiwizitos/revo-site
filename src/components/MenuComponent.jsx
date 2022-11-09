@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 function MenuComponent() {
   return (
-    <div className='flex w-screen md:w-[90vw] justify-between md:justify-evenly h-8 overflow-x-auto overflow-y-hidden snap-x overscroll-x-contain outline-1'>
+    <div className='flex w-screen md:w-[90vw] justify-between md:justify-evenly h-8 overflow-x-auto overflow-y-hidden snap-x overscroll-x-contain outline-1 font-poppins'>
       <NavLink
         to='/'
         className={({ isActive }) =>
